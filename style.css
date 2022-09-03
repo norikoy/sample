@@ -1,0 +1,394 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("css/style.css");
+
+*{
+margin: 0;
+padding: 0;
+}
+header,nav,footer,#contents,#breadcrumb,#main{
+	width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+}
+img{
+	display: block;
+}
+a{
+	display: block;
+	border: none;
+}
+ul,li{
+	list-style-type: none;
+}
+body{
+	minwidth: 1000px;
+	font-size: 14px;
+	color:#4D200C;
+	font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif","MS Serif", "New York", "serif";
+	line-height: 1.7em;
+	background-color: #FFFFFF;
+	width: 100%;
+}
+header{
+	background-position: top;
+}
+#headerInner{
+	width: 760px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 75px;
+	display: flex;
+}
+#logo{
+	margin-right: auto;
+	margin-top: 20px;
+}
+#img_tel{
+	margin-right: 20px;
+	margin-top: 33px;
+}
+#btn_reserve{
+	margin-right: 0;
+	margin-top: 20px;
+}
+nav{
+	background: #63B229;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    list-style: none;
+	text-align: center;
+	width: 100%;
+}
+nav li a{
+    display: block;
+    padding: 10px;
+    border-right: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+nav ul li a:hover{
+    color: #4D200C;
+}
+main{
+	width: 1000px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+#main{
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+#sub{
+	float: right;
+	width: 210px;
+	margin-top: 0;
+}
+#sub li{
+	margin-bottom: 15px;
+	margin-left: 8px;
+	margin-right: 0px;
+}
+#contens{
+	width: 760px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 45px;
+    overflow: hidden;
+}
+#breadcrumb ul{
+	display: flex;/* 子要素(li)を横一列に並べる */
+    list-style-type: none; /* リスト要素に表示されている"・"を非表示 */
+}
+#breadcrumb li{
+  padding: 5px; /* リンク間の間隔を調整 */
+  color: #4D200C; /* リンクの文字色を調整 */
+  text-decoration: none; /* リンクの下線を非表示 */
+}
+#breadcrumb li a{
+  color: #4D200C; /* リンクの文字色を調整 */
+  text-decoration: none; /* リンクの下線を非表示 */
+}
+#breadcrumb li a:hover {
+  color: #F5C318; /* カーソルをリンクの上に乗せたときの背景色 */
+}
+#main{
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 45px;
+	overflow: hidden;
+}
+#mainInner{
+	float: left;
+	overflow: hidden;
+}
+main h2{
+    background-color: #63B229;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	width:  540px;
+	color: #fff;
+	font-size: 17px;
+}
+#mainNews{
+	float: left;
+}
+#page_top{
+	float: right;
+	padding-top: 40px;
+	clear: both;
+}
+#page_top a{
+	color: #4D200C;
+}
+#page_top a:hover {
+  color: #F5C318; /* カーソルをリンクの上に乗せたときの背景色 */
+}
+footer{
+	clear: both;
+}
+#footer_inner{
+	width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #63B229;
+}
+#footer_nav ul{
+	display:flex;
+	list-style-type: none;
+}
+#footer_nav li{
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer_nav li a{
+    padding: 5px; 
+    color: #fff; 
+    font-size: 14px; /* リンクの文字サイズを調整 */
+    text-decoration: none; 
+}
+#footer_nav li a:hover{
+	color:#F5C318;
+}
+#footer_logo{
+	padding-top:20px; 
+	padding-left:78px; 
+	padding-bottom: 24px;
+}
+#footer_contens{
+	height: 110px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#footer_contact{
+	float: left;
+}
+#footer_reserve{
+	float: right;
+}
+#footer_reserve li{
+	padding-bottom: 18px;
+}
+#footer_inner p{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-size: 12px;
+}
+#mainphoto{
+	width: 1000px;
+	padding-top: 5px;
+}
+#main_bnr{
+	padding-bottom: 8px;
+}
+#mainNews ul{
+	padding-left: 0px;
+	width: 513px;
+}
+#mainNews ul li{
+	padding: 15px 0 7px 0px;
+	border-bottom: 1px dotted #C47944;
+}
+#mainNews li time{
+	display: inline-block;
+	width: 130px;
+	font-weight: 500;
+	text-indent: 0;
+}
+/* アクセスページのCSS */
+#mainMap{
+	float: left;
+}
+#mapContents{
+	width: 550px;
+}
+#mapContents figure{
+	margin: 20px 0 5px 80px;
+}
+#map_table{
+	margin: 20px 0 24px 40px;
+	width: 80%;
+	border-collapse: collapse;
+}
+#map_table th, table td{
+	padding: 15px;
+}
+#mapContents table th{
+	width: 80px;
+	text-align: left;
+}
+#map_table td{
+	border-bottom: 0.1px solid #954A2B;
+}
+#map_table th{
+	border-bottom: 0.1px solid #954A2B;
+}
+
+/* 診療案内ページのCSS */
+#mainServices{
+	float: left;
+}
+#services{
+	width: 100%;
+}
+#services_table{
+	border-collapse: collapse;
+	table-layout: auto;
+	border: 1px solid #D9E8EB;
+}
+#services table th{
+	background-color:aliceblue;
+	border-bottom: 1px solid #D9E8EB;
+	padding: 10px;
+}
+#services table td{
+	text-align: center;
+	width: 29px;
+	border-bottom: 1px solid #D9E8EB;
+}
+#services ul{
+	padding-top: 30px;
+}
+#services li{
+	padding-bottom: 10px;
+}
+/* 医院紹介ページのCSS */
+#mainAbout{
+	float: left;
+	width: 550px;
+}
+#aboutContents{
+	width: 100%;
+}
+#greeting figure{
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#greeting figcaption{
+	text-align: center;
+	margin-top: 17px;
+}
+.about{
+	padding: 10px 0 10px 10px;
+	border-left: solid 4px #ffaf58;
+    margin-bottom: 20px;
+	margin-top: 10px;
+}
+#greeting{
+	overflow: hidden;
+}
+#greeting_contents{
+	width: 300px;
+	margin-top: 20px;
+}
+#greeting_contents h4{
+	border-bottom: solid 1px #C47944;
+	padding: 20px 0 5px 5px;
+	margin-bottom: 10px;
+}
+#greeting_contents ul{
+	margin-left: 10px;
+}
+/* 施設案内ページのCSS */
+#clinic{
+	float: left;
+	width: 550px;
+}
+.gallery_box figure{
+	margin: 0 0 15px 15px;
+	width: 245px;
+	float: left;
+}
+.gallery_box{
+	overflow: hidden;
+}
+.gallery_box figcaption{
+	text-align: center;
+	font-size: 0.97em;
+}
+#gallery{
+	padding-top: 10px;
+	padding-left: 6px;
+}
+/* お問い合わせページのCSS */
+#contact{
+	float: left;
+}
+.contact_contents{
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+form p{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+form p:nth-last-child(2){
+	margin-bottom: 7px;
+}
+form p:last-child{
+	margin-bottom: 0;
+}
+input[type="text"]{
+	width:200px;
+	height: 20px;
+}
+input[type="tel"]{
+	width:200px;
+	height: 20px;
+}
+input[type="email"]{
+	width:300px;
+	height: 20px;
+}
+input[type="radio"]{
+	margin-right: 10px;
+	margin-left: 5px;
+	text-align: center;
+}
+textarea {
+	width:450px;
+	height: 120px;
+	overflow-y: scroll;
+}
+select{
+    width:300px;
+	height: 26px;
+}
+/* CSS Document */
+
