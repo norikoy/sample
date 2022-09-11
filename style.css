@@ -325,10 +325,14 @@ footer{
 #greeting_contents ul{
 	margin-left: 10px;
 }
-/* 施設案内ページのCSS */
+/* 施設紹介ページのCSS */
 #clinic{
 	float: left;
 	width: 550px;
+}
+#mainClinic{
+	width: 550px;
+	float: left;
 }
 .gallery_box figure{
 	margin: 0 0 15px 15px;
