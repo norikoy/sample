@@ -350,6 +350,10 @@ footer{
 #contact{
 	float: left;
 }
+#mainContact{
+        width:550px;
+	float:left;
+}
 .contact_contents{
 	margin-top: 15px;
 	margin-bottom: 30px;
